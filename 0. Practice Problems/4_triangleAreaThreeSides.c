@@ -1,3 +1,6 @@
+// Practice problem 4.
+// Takes three sides of a triangle & calculates the area.
+
 #include <stdio.h>
 #include <math.h>
 

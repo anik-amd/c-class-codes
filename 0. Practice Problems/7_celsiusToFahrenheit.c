@@ -12,7 +12,7 @@ int main() {
 
 	f = ((c*9)/5) + 32;
 
-	printf("temperature in Fahrenheit: %f", f);
+	printf("Temperature in Fahrenheit: %f", f);
 
 	return 0;
 }

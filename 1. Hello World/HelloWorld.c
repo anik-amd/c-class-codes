@@ -1,5 +1,4 @@
 // Hello World!
-// From Class 1.
 // A simple program to print some text.
 
 // stdio -> standard input output.

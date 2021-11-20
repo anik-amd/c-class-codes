@@ -1,4 +1,5 @@
 // Practice problem 6.
+// Takes radius of a circle as input & prints area of the circle.
 
 #include <stdio.h>
 #include <conio.h>

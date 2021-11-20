@@ -1,3 +1,6 @@
+// Practice Problem 3.
+// Takes base & height as input & prints the area of the triangle.
+
 #include <stdio.h>
 
 int main() {

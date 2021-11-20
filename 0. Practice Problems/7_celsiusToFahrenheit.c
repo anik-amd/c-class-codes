@@ -1,4 +1,6 @@
 // Practice problem 7.
+// Takes temperature in Celsius as input &
+// prints temperature in Fahrenheit.
 
 #include <stdio.h>
 

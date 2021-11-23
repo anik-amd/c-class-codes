@@ -13,7 +13,7 @@ int main() {
 	// But average could be float.
 	// So to make the statement return float
 	// we write 3.0 instead of 3.
-	// It converts the whole statement into float.
+	// It converts the whole expression into float.
 	// This problem can also be solved
 	// by taking all the values (n1,n2,n3,average) as float.
 	average = (n1+n2+n3)/3.0;

@@ -1,6 +1,7 @@
 // Case study 1
 // from chapter 3  
 // of Programming in ANSI C, Balagurusamy (4th edition).
+
 #include <stdio.h>
 
 int main() {

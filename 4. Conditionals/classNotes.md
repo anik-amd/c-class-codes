@@ -20,7 +20,7 @@ if(number % 2 == 0) {
 	}
 ```
 
-### Ternary Conditional Operators
+### 🔅 Ternary Conditional Operators
 
 ```
 condition ? exp1 : exp2

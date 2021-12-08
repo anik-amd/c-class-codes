@@ -1,4 +1,4 @@
-// Practice problem 1.
+// Practice problem 2.
 // Checks whether a number is even or odd.
 
 #include <stdio.h>

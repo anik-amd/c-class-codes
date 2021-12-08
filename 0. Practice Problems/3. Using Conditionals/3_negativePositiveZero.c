@@ -1,4 +1,4 @@
-// Practice problem 2.
+// Practice problem 3.
 // Checks whether a number is negative, positive or equal to zero.
 
 #include <stdio.h>

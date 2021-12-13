@@ -12,7 +12,7 @@ int main() {
 	if (mark > 100) {
 		printf("Invalid input!\n");
 	} else {
-		if (mark >= 90 && mark <= 100) {
+		if (mark >= 90) {
 		grade = 4;
 	} else if (mark >= 80) {
 		grade = 3.5;

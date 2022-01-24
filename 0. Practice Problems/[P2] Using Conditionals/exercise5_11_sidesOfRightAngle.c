@@ -17,4 +17,6 @@ int main()
     {
         printf("It is not a right angled triangle.");
     }
+
+    return 0;
 }

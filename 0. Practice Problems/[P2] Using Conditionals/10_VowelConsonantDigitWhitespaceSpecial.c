@@ -31,4 +31,6 @@ int main()
     {
         printf("%c is a special character.", ch);
     }
+
+    return 0;
 }

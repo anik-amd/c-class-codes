@@ -1,4 +1,4 @@
-// Check whether a character is a capital letter or a small letter or others.
+// Checks whether a character is a capital letter or a small letter or others.
 
 #include <stdio.h>
 

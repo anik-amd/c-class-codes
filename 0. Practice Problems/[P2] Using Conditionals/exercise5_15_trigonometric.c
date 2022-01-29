@@ -17,17 +17,22 @@ int main()
     if (T == 'S' || T == 's')
     {
         result = sin(x);
+        printf("%lf", result);
     }
     else if (T == 'C' || T == 'c')
     {
         result = cos(x);
+        printf("%lf", result);
     }
     else if (T == 'T' || T == 't')
     {
         result = tan(x);
+        printf("%lf", result);
     }
-
-    printf("%lf", result);
+    else
+    {
+        printf("Invalid input!");
+    }
 
     return 0;
 }

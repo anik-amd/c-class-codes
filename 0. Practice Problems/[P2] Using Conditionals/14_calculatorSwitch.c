@@ -1,15 +1,13 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     float a, b, result;
     char op;
 
     printf("Enter an expression: ");
     scanf("%f %c %f", &a, &op, &b);
 
-    switch (op)
-    {
+    switch (op) {
     case '+':
         result = a + b;
         printf("%.2f", result);
@@ -26,12 +24,9 @@ int main()
         break;
 
     case '/':
-        if (b == 0)
-        {
+        if (b == 0) {
             printf("Cannot be divided by zero.");
-        }
-        else
-        {
+        } else {
             result = a / b;
             printf("%.2f", result);
         }

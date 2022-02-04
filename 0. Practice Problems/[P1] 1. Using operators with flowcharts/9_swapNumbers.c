@@ -5,19 +5,19 @@
 #include <stdio.h>
 
 int main() {
-	int a,b,temp;
+    int a, b, temp;
 
-	printf("Enter value of first number (a): ");
-	scanf("%d", &a);
+    printf("Enter value of first number (a): ");
+    scanf("%d", &a);
 
-	printf("Enter value of second number (b): ");
-	scanf("%d", &b);
+    printf("Enter value of second number (b): ");
+    scanf("%d", &b);
 
-	temp = a;
-	a = b;
-	b = temp;
+    temp = a;
+    a = b;
+    b = temp;
 
-	printf("After swapping, value of a is %d & value of b is %d. \n", a ,b);
+    printf("After swapping, value of a is %d & value of b is %d. \n", a, b);
 
-	return 0;
+    return 0;
 }

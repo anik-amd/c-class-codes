@@ -6,14 +6,14 @@
 #define PI 3.141
 
 int main() {
-	float radius, area;
+    float radius, area;
 
-	printf("Enter radius of the circle: ");
-	scanf("%f", &radius);
+    printf("Enter radius of the circle: ");
+    scanf("%f", &radius);
 
-	area = PI * radius * radius;
+    area = PI * radius * radius;
 
-	printf("The area of the circle is: %f", area);
+    printf("The area of the circle is: %f", area);
 
-	return 0;
+    return 0;
 }

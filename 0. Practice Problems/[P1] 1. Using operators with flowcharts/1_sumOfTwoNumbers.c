@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 int main() {
-	int a,b,c;
+    int a, b, c;
 
-	printf("Enter two numbers: \n");
-	scanf("%d %d", &a, &b);
+    printf("Enter two numbers: \n");
+    scanf("%d %d", &a, &b);
 
-	c = a + b;
+    c = a + b;
 
-	printf("Result: %d \n", c);
-	return 0;
+    printf("Result: %d \n", c);
+    return 0;
 }

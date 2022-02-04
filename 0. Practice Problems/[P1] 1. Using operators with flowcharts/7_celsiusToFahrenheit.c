@@ -5,14 +5,14 @@
 #include <stdio.h>
 
 int main() {
-	float c, f;
+    float c, f;
 
-	printf("Enter temperature in Celsius: ");
-	scanf("%f", &c);
+    printf("Enter temperature in Celsius: ");
+    scanf("%f", &c);
 
-	f = ((c*9)/5) + 32;
+    f = ((c * 9) / 5) + 32;
 
-	printf("Temperature in Fahrenheit: %f", f);
+    printf("Temperature in Fahrenheit: %f", f);
 
-	return 0;
+    return 0;
 }

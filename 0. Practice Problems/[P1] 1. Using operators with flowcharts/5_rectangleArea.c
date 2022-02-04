@@ -4,14 +4,14 @@
 #include <stdio.h>
 
 int main() {
-	float width, length, area;
+    float width, length, area;
 
-	printf("Enter width & length of the rectangle with space: \n");
-	scanf("%f %f", &width, &length);
+    printf("Enter width & length of the rectangle with space: \n");
+    scanf("%f %f", &width, &length);
 
-	area = width*length;
+    area = width * length;
 
-	printf("Area of the rectangle: \n %f", area);
+    printf("Area of the rectangle: \n %f", area);
 
-	return 0;
+    return 0;
 }

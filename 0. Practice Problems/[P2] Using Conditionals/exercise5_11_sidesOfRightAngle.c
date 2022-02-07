@@ -2,28 +2,21 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int a, b, c;
 
     printf("Enter values of three sides: ");
     scanf("%d %d %d", &a, &b, &c);
 
     // First check if its a triangle.
-    if (a + b > c && a + c > b && b + c > a)
-    {
+    if (a + b > c && a + c > b && b + c > a) {
         // Now check if its a right angle.
-        if (a * a == b * b + c * c || b * b == a * a + c * c || c * c == a * a + b * b)
-        {
+        if ((a > b && a > c) && a * a == b * b + c * c || (b > a && b > c) && b * b == a * a + c * c || (c > a && c > b) && c * c == a * a + b * b) {
             printf("It is a right angled triangle.");
-        }
-        else
-        {
+        } else {
             printf("It is not a right angled triangle.");
         }
-    }
-    else
-    {
+    } else {
         printf("It is not a triangle.");
     }
 

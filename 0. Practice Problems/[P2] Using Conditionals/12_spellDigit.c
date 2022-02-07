@@ -2,15 +2,13 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int digit;
 
     printf("Enter a digit: ");
     scanf("%d", &digit);
 
-    switch (digit)
-    {
+    switch (digit) {
     case 0:
         printf("Zero.");
         break;

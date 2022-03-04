@@ -6,7 +6,7 @@ int main() {
     printf("Enter value of N: ");
     scanf("%d", &n);
 
-    for(i = 2; i <= ni = i + 2) {
+    for(i = 2; i <= n; i = i + 2) {
         prod = prod * (i * i);
     }
 

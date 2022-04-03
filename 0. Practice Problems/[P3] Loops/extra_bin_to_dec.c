@@ -1,3 +1,6 @@
+// C program to convert binary number to decinal number.
+// Note that this code only works for small numbers.
+
 #include <stdio.h>
 
 int main() {

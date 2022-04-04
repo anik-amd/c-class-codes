@@ -8,29 +8,28 @@
 #include <stdio.h>
 
 int main() {
-    int i, n, m, is_prime;
+  int i, n, m, is_prime, count = 0;
 
-    printf("Enter value of N: ");
-    scanf("%d", &n);
+  printf("Enter value of N: ");
+  scanf("%d", &n);
 
-    // Series of R to n.
-    for(m = 2; m <= n; m++) {
+  // Series of R to n.
+  for (m = 2; m <= n; m++) {
 
-        // Check if m is prime.
-        is_prime = 1;
-        for(i = 2; i <= m / 2; i++) {
-            if(m % i == 0) {
-                is_prime = 0;
-                break;
-            }
-        }
-
-        if(is_prime) {
-            printf("%d \n", m);
-        }
+    // Check if m is prime.
+    is_prime = 1;
+    for (i = 2; i <= m / 2; i++) {
+      if (m % i == 0) {
+        is_prime = 0;
+        count++;
+        break;
+      }
     }
 
+    if (is_prime) {
+      printf("%d \n", m);
+    }
+  }
 
-
-    return 0;
+  return 0;
 }

@@ -28,9 +28,9 @@ condition ? exp1 : exp2
 
 Here,
 
--   `condition` is an expression which will be executed first. It can only be true or false.
--   `exp1` will be executed if `condition` is true.
--   `exp2` will be executed if `condition` is false.
+- `condition` is an expression which will be executed first. It can only be true or false.
+- `exp1` will be executed if `condition` is true.
+- `exp2` will be executed if `condition` is false.
 
 For example,
 

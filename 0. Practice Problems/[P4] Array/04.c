@@ -25,7 +25,7 @@ int main() {
   }
 
   if (count)
-    printf("Frequency of a %d is %d", key, count);
+    printf("Frequency of %d is %d", key, count);
   else
     printf("Not found!");
 

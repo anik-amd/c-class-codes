@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int func(int s1, int s2, int arr[][s2], int output[][s2]) {
+void func(int s1, int s2, int arr[][s2], int output[][s2]) {
   for (int i = 0; i < s1; i++) {
     for (int j = 0; j < s2; j++) {
       if (arr[i][j] < 0) {
